@@ -1,15 +1,31 @@
 /* CSS files add styling rules to your content */
-
 body {
   font-family: Georgia, arial, sans-serif;
   margin: 2em;
 }
+
+  model-viewer {
+        margin: auto;
+        width: 50%;
+        height: 400px;
+        }
+    p {
+        color: black;
+        text-align: center;
+        }
+   h1 {
+        font-style: bold;
+        color: black;
+        text-align: center;  
+        }
 
 header, h1, h2 p {
   font-size: 10em;
   font-style: Georgia; sans-serif;
   color: #ad8884;
 }
+
+
 .center-screen {
   display: flex;
   flex-direction: column;
@@ -18,3 +34,5 @@ header, h1, h2 p {
   text-align: center;
   min-height: 100vh;
 }
+
+ 
