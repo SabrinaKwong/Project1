@@ -1,0 +1,20 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: Georgia, arial, sans-serif;
+  margin: 2em;
+}
+
+header, h1, h2 p {
+  font-size: 10em;
+  font-style: Georgia; sans-serif;
+  color: #ad8884;
+}
+.center-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
